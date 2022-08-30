@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-image: url("svgcoffee.svg");
+    backdrop-filter: blur(15px);
+    color: #e8ffff
+}
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    padding: 25px 30px;
+    border-radius: 20px;
+}
+
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    color: #e8ffff
+
+}
+
+form .user-details .input-box{
+    margin-bottom: 10px;
+    width: calc(100% / 2 - 20px);
+
+}
+.user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+form .button {
+    height: 45px;
+    margin: 45px 0;
+}
+
+form .button input{
+    height: 90%;
+    width: 90%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6)
+}
+
+form .button input:hover{
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6)
+}
+
+
+

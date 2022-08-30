@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title> Profile </title>
+        <link rel = "stylesheet" href="profilestyle.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       <div class = "container">
+        <h1 style="text-align: center"> <u>WELCOME TO PROFILE PAGE </u> </h1>
+        
+        <div class = "title"> Add additional details! </div>
+        <br><hr>
+
+        <form name ="profileform" action = "ProfilePage" method = "post">
+            
+                <div class = "user-details">
+
+                <div class = "input-box">
+                <span class = "details"> Username </span>
+                <input type = "text" name ="username" placeholder = "Username" >
+                </div>
+
+                <div class = "input-box">
+                <span class = "details"> Email </span>
+                <input type = "email" name ="eml" placeholder = "Email" >
+                </div>
+
+                <div class = "input-box">
+                <span class = "details"> Age </span>
+                <input type = "text" name ="age" placeholder = "Enter your age" >
+                </div>
+
+                <div class = "input-box">
+                <span class = "details"> DOB </span>
+                <input type = "date" name ="birthday" >
+                </div>
+
+                <div class = "button">
+                <input type = "submit" value = "Save Changes">
+                </div>
+
+                 <div class = "button">
+                     <a href = "login.html"> <input type = "button" value = "Logout"> </a>
+                </div>   
+            </div>
+        </form>
+      </div>
+    </body>
+</html>

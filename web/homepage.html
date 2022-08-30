@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Homepage</title>
+        <link rel = "stylesheet" href="homepagestyle.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="navbar">
+            <img src="svgsignup.svg" alt="logo" width="200" height="70">
+               <div id="navbar-right">
+                    <a href="signup.jsp">Sign up</a>
+                    <a href="login.html">Login</a>
+                </div>
+        </div>
+        <div style="margin-top: 280px;padding:15px 15px 2500px;font-size:30px">
+            <marquee width="600%" direction="right">
+              <p> <b> Check profile ? </b> <br>
+                <a href = "login.html"> Login here </a>
+              </p>
+            </marquee>
+        </div>
+
+        <script>
+            window.onscroll = function() {scrollFunction()};
+            function scrollFunction(){
+                if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
+                    document.getElementById("navbar").style.padding = "20px 10px";
+                } 
+                else {
+                    document.getElementById("navbar").style.padding = "50px 10px";
+                }
+            }
+        </script>
+    </body>
+</html>
